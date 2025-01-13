@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+}
+
+.everythingDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+.headerDiv {
+    display: flex;
+    flex-direction: row;
+    padding: 22px 208px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLogoAndNavDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+}
+
+.logoAndSpanDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.logoSpan {
+    color: #000;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.navDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.navAStyles {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.headerButtonDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.whiteButton {
+    color: #414651;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 14px;
+    background-color: #fff;
+    border: 1px solid #D5D7DA;
+    border-radius: 8px;
+}
+
+.purpleButton {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 14px;
+    background-color: #7F56D9;
+    border: none;
+    border-radius: 8px;
+}
+
+.navDivs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.theMainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    align-items: center;
+}
+
+.firstTextDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.divAndSpanDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.borderDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    border: 1px solid #D5D7DA;
+    border-radius: 10px;
+    padding: 8px;
+    width: 371px;
+}
+
+.whiteBorderButton {
+    color: #414651;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff;
+    border: 1px solid #D5D7DA;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+.borderSpan {
+    color: #414651;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h1 {
+    color: #181D27;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.firstP {
+    color: #535862;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pAndButtonDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 768px;
+}
+
+.secondButtonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+}
+
+.secondWhiteButton {
+    color: #414651;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 16px 24px;
+    border: 1px solid #D5D7DA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.secondPurpleButton {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #7F56D9;
+    padding: 16px 24px;
+    border-radius: 10px;
+    border: none;
+}
+
+.cardAndTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.justTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 1024px;
+    align-items: center;
+}
+
+.purpleSpan {
+    color: #6941C6;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.firstH2 {
+    color: #181D27;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.cardDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.firstCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 320px;
+    align-items: center;
+    padding: 12px 24px;
+}
+
+.message {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+
+.h3Styles {
+    color: #181D27;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.myPStyles {
+    color: #535862;
+    font-size: 14px;
+    text-align: center;
+}
+
+.h3AndPDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.textAndTwoCardDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+
+.spanStyles {
+    color: #7F56D9;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cardsUpP {
+    color: #535862; 
+    font-size: 18px;
+}
+
+.firstCardInTwo {
+    display: flex;
+    flex-direction: column;
+    width: 496px;
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+
+.imgAndH3Div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.firstCardSpan {
+    font-size: 20px;
+    color: #6941C6;
+    font-weight: 600;
+}
+
+.zapIcon {
+    width: 48px;
+    height: 48px;
+}
+
+.h3AndSpanDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.h3StylesInTwoDivIn {
+    color: #181D27;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.spanStylesInTwoDivIn {
+    color: #535862;
+    font-size: 16px;
+}
+
+.firstPart {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    padding: 32px;
+}
+
+.secondPart {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+    padding-bottom: 40px;
+}
+
+.cardListDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.cardListDiv > span {
+    color: #535862;
+    font-size: 16px;
+}
+
+.purpleButtonDiv {
+    padding: 32px;
+}
+
+.bigPurpleDiv {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #7F56D9;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    padding: 12px 18px;
+}
+
+.textUpCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.purpleDiv {
+    display: flex;
+    flex-direction: row;
+    width: 416px;
+    background-color: #53389E;
+    padding: 64px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.leftHolePart {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftFirst {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 32px;
+}
+
+.stars {
+    width: 116px;
+    height: 20px;
+}
+
+.justPStyles {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.leftSecondPart {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.justSpanDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.dots {
+    width: 62px;
+    height: 10px;
+}
+
+.firstSpan {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.secondSpan {
+    color: #E9D7FE;
+    font-size: 16px;
+}
+
+.purpleDivParent {
+    display: flex;
+    flex-direction: row;
+}
+
+.girlImg {
+    height: 453px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.footerDiv {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 208px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.last {
+    color: #717680;
+    font-size: 16px;
+}
+
+.footerNavDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
